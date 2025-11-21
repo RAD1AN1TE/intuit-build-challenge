@@ -1,0 +1,18 @@
+[run]
+source = assignment_1
+omit = 
+    assignment_1/__init__.py
+    assignment_1/run_assignment*.py
+    assignment_1/tests/*
+    */tests/*
+
+[report]
+exclude_lines =
+    pragma: no cover
+    def __repr__
+    raise AssertionError
+    raise NotImplementedError
+    if __name__ == .__main__.:
+    if TYPE_CHECKING:
+    @abstractmethod
+
