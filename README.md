@@ -5,7 +5,12 @@ Implementation of two coding assignments demonstrating concurrent programming an
 ## Setup
 
 ```bash
-pip install pytest
+pip install -r requirements.txt
+```
+
+Or install dependencies individually:
+```bash
+pip install pytest pytest-cov
 ```
 
 ## Running Assignments
@@ -52,6 +57,7 @@ intuit-build-challenge/
 │   ├── run_assignment_2.py
 │   ├── data/
 │   └── tests/
+├── requirements.txt       # Python dependencies
 └── README.md
 ```
 
